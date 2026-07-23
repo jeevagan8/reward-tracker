@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <label>Quarterly Score</label>
+    <pluralLabel>Quarterly Scores</pluralLabel>
+    <sharingModel>ControlledByParent</sharingModel>
+
+    <nameField>
+        <displayFormat>QS-{0000}</displayFormat>
+        <label>Quarterly Score Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+</CustomObject>
