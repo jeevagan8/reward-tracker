@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suspension_Date_Required</fullName>
+    <active>true</active>
+    <description>Require suspension date when branch is suspended</description>
+    <errorConditionFormula>
+        ISPICKVAL(Branch_Status__c, "Suspended")&amp;&amp;
+        ISBLANK(Suspension_Date__c)
+    </errorConditionFormula>
+    <errorMessage>Suspension Date is required when Branch Status is Suspended.</errorMessage>
+</ValidationRule>

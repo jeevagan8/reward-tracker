@@ -1,0 +1,11 @@
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <label>Member Branch</label>
+    <pluralLabel>Member Branches</pluralLabel>
+    <sharingModel>ControlledByParent</sharingModel>
+    <nameField>
+        <displayFormat>MB-{0000}</displayFormat>
+        <label>Branch Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+</CustomObject>
